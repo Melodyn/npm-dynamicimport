@@ -4,9 +4,6 @@ LOCAL_IMAGE_NAME=autoloader:app
 # expand app first time
 expand: app_build app_expand
 
-up: app_up app_start # run app
-down: app_down # stop app
-
 # container for local development
 app_build:
 	docker build -t $(LOCAL_IMAGE_NAME) - < Dockerfile
@@ -20,7 +17,9 @@ app_expand:
 
 # open bash in container
 app_open:
-	docker exec -it $(LOCAL_CONTAINER_NAME) /bin/bash
+	docker run --rm -it \
+		-v $(CURDIR):/usr/src/app \
+		$(LOCAL_CONTAINER_NAME) /bin/bash
 
 # тесты
 test:
