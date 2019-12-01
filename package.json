@@ -1,0 +1,25 @@
+{
+  "name": "@melodyn/autoloader",
+  "version": "1.0.0",
+  "description": "Automatically load your modules from subdirectories",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Melodyn/npm-autoloader.git"
+  },
+  "keywords": [
+    "autoloader",
+    "dynamic",
+    "imports",
+    "autoimport"
+  ],
+  "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Melodyn/npm-autoloader/issues"
+  },
+  "homepage": "https://github.com/Melodyn/npm-autoloader#readme"
+}
