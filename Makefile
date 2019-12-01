@@ -10,17 +10,21 @@ app_build:
 
 # insall actual dependencies from package-lock.json
 app_expand:
-	docker run --rm \
-		-it \
+	docker run --rm -it \
+		--name $(LOCAL_CONTAINER_NAME) \
 		-v $(CURDIR):/usr/src/app \
 		$(LOCAL_IMAGE_NAME) npm ci
 
 # open bash in container
 app_open:
 	docker run --rm -it \
+		--name $(LOCAL_CONTAINER_NAME) \
 		-v $(CURDIR):/usr/src/app \
-		$(LOCAL_CONTAINER_NAME) /bin/bash
+		$(LOCAL_IMAGE_NAME) /bin/bash
 
 # тесты
 test:
-	docker exec -it $(LOCAL_CONTAINER_NAME) /bin/bash -c "npm run test"
+	docker run --rm -it \
+		--name $(LOCAL_CONTAINER_NAME) \
+		-v $(CURDIR):/usr/src/app \
+		$(LOCAL_IMAGE_NAME) npm run test
