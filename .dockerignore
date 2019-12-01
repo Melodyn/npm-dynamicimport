@@ -2,6 +2,6 @@
 **
 
 # Allow files and directories
-!src/**
+!lib/**
 !package.json
 !package-lock.json

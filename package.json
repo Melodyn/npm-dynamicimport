@@ -2,24 +2,31 @@
   "name": "@melodyn/autoloader",
   "version": "1.0.0",
   "description": "Automatically load your modules from subdirectories",
+  "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
+  "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
     "test": "jest -i"
   },
+  "homepage": "https://github.com/Melodyn/npm-autoloader#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Melodyn/npm-autoloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Melodyn/npm-autoloader/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
   },
   "keywords": [
     "autoloader",
     "dynamic",
     "imports",
     "autoimport"
-  ],
-  "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Melodyn/npm-autoloader/issues"
-  },
-  "homepage": "https://github.com/Melodyn/npm-autoloader#readme"
+  ]
 }
