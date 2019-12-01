@@ -5,6 +5,9 @@
   "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
   "license": "MIT",
   "main": "./lib/index.js",
+  "engines": {
+    "node": ">=12.13"
+  },
   "scripts": {
     "test": "jest -i"
   },
@@ -17,9 +20,15 @@
     "url": "https://github.com/Melodyn/npm-autoloader/issues"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
     "prettier": "^1.19.1"
   },
