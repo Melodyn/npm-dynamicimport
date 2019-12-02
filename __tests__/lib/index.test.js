@@ -5,6 +5,7 @@ describe('Positive cases', () => {
   test('Just test', async () => {
     const { cases } = fixtures;
     await expect(autoloader(cases.validPackageJson)).resolves.toEqual('ok');
+    await expect(autoloader(fixtures.projectRoot, cases.validUserConfig_index)).resolves.toEqual('ok');
   });
 });
 

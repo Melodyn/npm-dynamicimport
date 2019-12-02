@@ -1,5 +1,5 @@
 {
   "autoload": {
-    "modules": ["backend", "modules", "*", "index.*"]
+    "modules": ["backend", "modules", "b", "index.js|ts"]
   }
 }
