@@ -1,5 +1,7 @@
 {
   "autoload": {
-    "modules": ["backend", "modules", "b", "index.js|ts"]
+    "modules": ["modules", "b", "index.js|ts"],
+    "bobules": ["modules", "c", "module.js|ts"],
+    "dopules": ["modules", "a", "module.js|ts"]
   }
 }
