@@ -1,5 +1,5 @@
 {
-  "name": "@melodyn/autoloader",
+  "name": "@melodyn/dynamicimport",
   "version": "1.0.0",
   "description": "Automatically load your modules from subdirectories",
   "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
@@ -11,13 +11,13 @@
   "scripts": {
     "test": "jest -i"
   },
-  "homepage": "https://github.com/Melodyn/npm-autoloader#readme",
+  "homepage": "https://github.com/Melodyn/npm-dynamicimport#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Melodyn/npm-autoloader.git"
+    "url": "https://github.com/Melodyn/npm-dynamicimport.git"
   },
   "bugs": {
-    "url": "https://github.com/Melodyn/npm-autoloader/issues"
+    "url": "https://github.com/Melodyn/npm-dynamicimport/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
