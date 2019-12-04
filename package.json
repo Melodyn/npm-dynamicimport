@@ -1,10 +1,11 @@
 {
   "name": "@melodyn/dynamicimport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically load your modules from subdirectories",
   "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
   "license": "MIT",
   "main": "./lib/index.js",
+  "files": ["dist"],
   "engines": {
     "node": ">=12.13"
   },
