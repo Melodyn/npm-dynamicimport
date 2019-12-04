@@ -1,15 +1,16 @@
 {
   "name": "@melodyn/dynamicimport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically load your modules from subdirectories",
   "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
   "license": "MIT",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "files": ["dist"],
   "engines": {
     "node": ">=12.13"
   },
   "scripts": {
+    "build": "babel lib --out-dir dist",
     "test": "jest -i"
   },
   "homepage": "https://github.com/Melodyn/npm-dynamicimport#readme",
