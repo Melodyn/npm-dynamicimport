@@ -11,5 +11,9 @@ export default {
     invalidModulePath: ['module.js|ts'],
     invalidPackageJson: path.resolve(__dirname, '..', '..'),
   },
-  expected: {},
+  expected: {
+    validUserConfig_index: { default: [{ default: 'this module "a"' }, { default: 'this module "b"' }] },
+    validUserConfig_module: { default: [{ default: 'this module "c"' }] },
+    validPackageJson: { modules: [{ default: 'this module "b"' }], bobules: [{ default: 'this module "c"' }] },
+  },
 };
