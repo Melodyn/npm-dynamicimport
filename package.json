@@ -1,6 +1,6 @@
 {
   "name": "@melodyn/dynamicimport",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically load your modules from subdirectories",
   "author": "Sergei Melodyn <samelodyn@gmail.com> (https://melodyn.ru)",
   "license": "MIT",
