@@ -4,7 +4,7 @@ Automatically load your modules from subdirectories.
 
 # Motivation
 
-They say the voices in my head.<br>
+The voices in my head made me do this.<br>
 More details: https://habr.com/ru/post/478974/
 
 # Problem
@@ -37,9 +37,9 @@ export default {
   bobule: c
 };
 ```
-and level up index.ts import from ./modules/index.ts from ./moduleName/index.ts...
+So we lift up the index.ts import from ./modules/index.ts from ./moduleName/index.ts...
 
-# How can this be solved
+# How this can be solved
 
 ```
 npm i @melodyn/dynamicimport
